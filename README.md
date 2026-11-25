@@ -47,3 +47,7 @@ Fonts and icons load from Google Fonts, so an internet connection is needed for 
 - Replace `prompt()`/`confirm()` with in-page forms and dialogs.
 - Filter by status and sort by date.
 - Escape task titles before inserting them into the page.
+
+## License
+
+Released under the [MIT License](LICENSE).
