@@ -118,7 +118,7 @@ fillTaskOnPage()
 document.getElementById("btn-add").addEventListener("click",function(){
    
    let now = new Date()
-   let date = now.getDate() + "/" +  now.getMonth() + "/" + now.getFullYear() 
+   let date = now.getDate() + "/" +  (now.getMonth() + 1) + "/" + now.getFullYear() 
    let taskName=  prompt("can you add the new task ? ")
 
 
